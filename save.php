@@ -1,16 +1,16 @@
 <?php 
 	require_once("conex.php");
 
-	$nombre    = strtoupper($_POST['nombre']);
-	$paterno   = strtoupper($_POST['ap_pat']);
-	$materno   = strtoupper($_POST['ap_mat']);
-	$sexo      = strtoupper($_POST['sexo']);
+	$nombre    = $_POST['nombre'];
+	$paterno   = $_POST['ap_pat'];
+	$materno   = $_POST['ap_mat'];
+	$sexo      = $_POST['sexo'];
 	$email     = $_POST['email'];
 	$email_a   = $_POST['email_alt'];
-	$direccion = strtoupper($_POST['direccion']);
-	$colonia   = strtoupper($_POST['colonia']);
-	$municipio = strtoupper($_POST['municipio']);
-	$estado    = strtoupper($_POST['estado']);
+	$direccion = $_POST['direccion'];
+	$colonia   = $_POST['colonia'];
+	$municipio = $_POST['municipio'];
+	$estado    = $_POST['estado'];
 	$cp        = $_POST['cp'];
 	$tel_p     = $_POST['tel_p'];
 	$tel_c     = $_POST['tel_c'];

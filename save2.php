@@ -2,7 +2,7 @@
 	include("conex.php");
 
 	$email        = $_POST['email'];
-	$inst         = strtoupper($_POST['institucion']);
+	$inst         = $_POST['institucion'];
 	$posgrado     = $_POST['posgrado'];
 	$f_ingreso    = $_POST['fecha_ingreso'];
 	$f_egreso     = $_POST['fecha_egreso'];
@@ -50,6 +50,6 @@
 		header("Location:form3.php?email=$email");
 	}
 	else {
-		header("Location:form2.php?email=$email");
+		header("Location:form3.php");
 	}
 ?>
