@@ -92,7 +92,6 @@
 										<table>
 											<tr>
 												<td colspan="6"></td>
-												<td>0</td>
 												<td>1</td>
 												<td>2</td>
 												<td>3</td>
@@ -102,7 +101,6 @@
 											<tr>
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
 												<td colspan="6" align="left"><label for="">Para mejorar mi preparación</label></td>
-												<td><input type="radio" name="mot_1" checked="checked" onClick="limpiar()"></td>
 												<td><input type="radio" name="mot_1" id="mot_11" onClick="p11()" value="1" required></td>
 												<td><input type="radio" name="mot_1" id="mot_12" onClick="p21()" value="2"></td>
 												<td><input type="radio" name="mot_1" id="mot_13" onClick="p31()" value="3"></td>
@@ -112,7 +110,6 @@
 											<tr>
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
 												<td colspan="6" align="left"><label for="">Para desarrollar mi actual ámbito laboral</label></td>
-												<td><input type="radio" name="mot_2" checked="checked" onClick="limpiar()"></td>
 												<td><input type="radio" name="mot_2" id="mot_21" onClick="p12()" value="1" required></td>
 												<td><input type="radio" name="mot_2" id="mot_22" onClick="p22()" value="2"></td>
 												<td><input type="radio" name="mot_2" id="mot_23" onClick="p32()" value="3"></td>
@@ -122,7 +119,6 @@
 											<tr>
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
 												<td colspan="6" align="left"><label for="">Para acceder a una beca económica</label></td>
-												<td><input type="radio" name="mot_3" checked="checked" onClick="limpiar()"></td>
 												<td><input type="radio" name="mot_3" id="mot_31" onClick="p13()" value="1" required></td>
 												<td><input type="radio" name="mot_3" id="mot_32" onClick="p23()" value="2"></td>
 												<td><input type="radio" name="mot_3" id="mot_33" onClick="p33()" value="3"></td>
@@ -132,7 +128,6 @@
 											<tr>
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
 												<td colspan="6" align="left"><label for="">Por status</label></td>
-												<td><input type="radio" name="mot_4" checked="checked" onClick="limpiar()"></td>
 												<td><input type="radio" name="mot_4" id="mot_41" onClick="p14()" value="1" required></td>
 												<td><input type="radio" name="mot_4" id="mot_42" onClick="p24()" value="2"></td>
 												<td><input type="radio" name="mot_4" id="mot_43" onClick="p34()" value="3"></td>
@@ -142,7 +137,6 @@
 											<tr>
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
 												<td align="left" colspan="6"><label for="">Otro, Especifique:</label></td>
-												<td><input type="radio" name="mot_5" checked="checked" onClick="limpiar()"></td>
 												<td><input type="radio" name="mot_5" id="mot_51" onClick="p15()" value="1" required></td>
 												<td><input type="radio" name="mot_5" id="mot_52" onClick="p25()" value="2"></td>
 												<td><input type="radio" name="mot_5" id="mot_53" onClick="p35()" value="3"></td>
