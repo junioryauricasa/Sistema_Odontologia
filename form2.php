@@ -25,7 +25,7 @@
 		<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
 
 		<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
-
+		<script type="text/javascript" src="js/validacion.js"></script>
 		<link rel="shortcut icon" href="img/favicon_logo.ico">
 
 		<script>
@@ -202,15 +202,15 @@
 
 												<td colspan="6" align="left"><label for="">Para mejorar mi preparación</label></td>
 
-												<td><input type="radio" name="mot_1" id="mot_1" value="1" required></td>
+												<td><input type="radio" name="mot_1" onClick="p11()" id="mot_1" value="1" required></td>
 
-												<td><input type="radio" name="mot_1" id="mot_1" value="2"></td>
+												<td><input type="radio" name="mot_1" onClick="p21()" id="mot_1" value="2"></td>
 
-												<td><input type="radio" name="mot_1" id="mot_1" value="3"></td>
+												<td><input type="radio" name="mot_1" onClick="p31()" id="mot_1" value="3"></td>
 
-												<td><input type="radio" name="mot_1" id="mot_1" value="4"></td>
+												<td><input type="radio" name="mot_1" onClick="p41()" id="mot_1" value="4"></td>
 
-												<td><input type="radio" name="mot_1" id="mot_1" value="5"></td>
+												<td><input type="radio" name="mot_1" onClick="p51()" id="mot_1" value="5"></td>
 
 											</tr>
 
@@ -220,15 +220,15 @@
 
 												<td colspan="6" align="left"><label for="">Para desarrollar mi actual ámbito laboral</label></td>
 
-												<td><input type="radio" name="mot_2" id="mot_2" value="1" required></td>
+												<td><input type="radio" name="mot_2" onClick="p12()" id="mot_2" value="1" required></td>
 
-												<td><input type="radio" name="mot_2" id="mot_2" value="2"></td>
+												<td><input type="radio" name="mot_2" onClick="p22()" id="mot_2" value="2"></td>
 
-												<td><input type="radio" name="mot_2" id="mot_2" value="3"></td>
+												<td><input type="radio" name="mot_2" onClick="p32()" id="mot_2" value="3"></td>
 
-												<td><input type="radio" name="mot_2" id="mot_2" value="4"></td>
+												<td><input type="radio" name="mot_2" onClick="p42()" id="mot_2" value="4"></td>
 
-												<td><input type="radio" name="mot_2" id="mot_2" value="5"></td>
+												<td><input type="radio" name="mot_2" onClick="p52()" id="mot_2" value="5"></td>
 
 											</tr>
 
@@ -238,15 +238,15 @@
 
 												<td colspan="6" align="left"><label for="">Para acceder a una beca económica</label></td>
 
-												<td><input type="radio" name="mot_3" id="mot_3" value="1" required></td>
+												<td><input type="radio" name="mot_3" onClick="p13()" id="mot_3" value="1" required></td>
 
-												<td><input type="radio" name="mot_3" id="mot_3" value="2"></td>
+												<td><input type="radio" name="mot_3" onClick="p23()" id="mot_3" value="2"></td>
 
-												<td><input type="radio" name="mot_3" id="mot_3" value="3"></td>
+												<td><input type="radio" name="mot_3" onClick="p33()" id="mot_3" value="3"></td>
 
-												<td><input type="radio" name="mot_3" id="mot_3" value="4"></td>
+												<td><input type="radio" name="mot_3" onClick="p43()" id="mot_3" value="4"></td>
 
-												<td><input type="radio" name="mot_3" id="mot_3" value="5"></td>
+												<td><input type="radio" name="mot_3" onClick="p53()" id="mot_3" value="5"></td>
 
 											</tr>
 
@@ -256,15 +256,15 @@
 
 												<td colspan="6" align="left"><label for="">Por status</label></td>
 
-												<td><input type="radio" name="mot_4" id="mot_4" value="1" required></td>
+												<td><input type="radio" name="mot_4" onClick="p14()" id="mot_4" value="1" required></td>
 
-												<td><input type="radio" name="mot_4" id="mot_4" value="2"></td>
+												<td><input type="radio" name="mot_4" onClick="p24()" id="mot_4" value="2"></td>
 
-												<td><input type="radio" name="mot_4" id="mot_4" value="3"></td>
+												<td><input type="radio" name="mot_4" onClick="p34()" id="mot_4" value="3"></td>
 
-												<td><input type="radio" name="mot_4" id="mot_4" value="4"></td>
+												<td><input type="radio" name="mot_4" onClick="p44()" id="mot_4" value="4"></td>
 
-												<td><input type="radio" name="mot_4" id="mot_4" value="5"></td>
+												<td><input type="radio" name="mot_4" onClick="p54()" id="mot_4" value="5"></td>
 
 											</tr>
 
@@ -274,15 +274,15 @@
 
 												<td align="left" colspan="6"><label for="">Otro, Especifique:</label></td>
 
-												<td><input type="radio" name="mot_5" id="mot_5" value="1" required></td>
+												<td><input type="radio" name="mot_5" onClick="p15()" id="mot_5" value="1" required></td>
 
-												<td><input type="radio" name="mot_5" id="mot_5" value="2"></td>
+												<td><input type="radio" name="mot_5" onClick="p25()" id="mot_5" value="2"></td>
 
-												<td><input type="radio" name="mot_5" id="mot_5" value="3"></td>
+												<td><input type="radio" name="mot_5" onClick="p35()" id="mot_5" value="3"></td>
 
-												<td><input type="radio" name="mot_5" id="mot_5" value="4"></td>
+												<td><input type="radio" name="mot_5" onClick="p45()" id="mot_5" value="4"></td>
 
-												<td><input type="radio" name="mot_5" id="mot_5" value="5"></td>
+												<td><input type="radio" name="mot_5" onClick="p55()" id="mot_5" value="5"></td>
 
 												<td><input type="text" name="mot_6" id="mot_6" placeholder="Especifique otro"></td>
 
