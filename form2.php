@@ -202,15 +202,15 @@
 
 												<td colspan="6" align="left"><label for="">Para mejorar mi preparación</label></td>
 
-												<td><input type="radio" name="mot_1" onClick="p11()" id="mot_1" value="1" required></td>
+												<td><input type="radio" name="mot_1" id="mot_11" onClick="p11()" value="1" required></td>
 
-												<td><input type="radio" name="mot_1" onClick="p21()" id="mot_1" value="2"></td>
+												<td><input type="radio" name="mot_1" id="mot_12" onClick="p21()" value="2"></td>
 
-												<td><input type="radio" name="mot_1" onClick="p31()" id="mot_1" value="3"></td>
+												<td><input type="radio" name="mot_1" id="mot_13" onClick="p31()" value="3"></td>
 
-												<td><input type="radio" name="mot_1" onClick="p41()" id="mot_1" value="4"></td>
+												<td><input type="radio" name="mot_1" id="mot_14" onClick="p41()" value="4"></td>
 
-												<td><input type="radio" name="mot_1" onClick="p51()" id="mot_1" value="5"></td>
+												<td><input type="radio" name="mot_1" id="mot_15" onClick="p51()" value="5"></td>
 
 											</tr>
 
@@ -220,15 +220,15 @@
 
 												<td colspan="6" align="left"><label for="">Para desarrollar mi actual ámbito laboral</label></td>
 
-												<td><input type="radio" name="mot_2" onClick="p12()" id="mot_2" value="1" required></td>
+												<td><input type="radio" name="mot_2" id="mot_21" onClick="p12()" value="1" required></td>
 
-												<td><input type="radio" name="mot_2" onClick="p22()" id="mot_2" value="2"></td>
+												<td><input type="radio" name="mot_2" id="mot_22" onClick="p22()" value="2"></td>
 
-												<td><input type="radio" name="mot_2" onClick="p32()" id="mot_2" value="3"></td>
+												<td><input type="radio" name="mot_2" id="mot_23" onClick="p32()" value="3"></td>
 
-												<td><input type="radio" name="mot_2" onClick="p42()" id="mot_2" value="4"></td>
+												<td><input type="radio" name="mot_2" id="mot_24" onClick="p42()" value="4"></td>
 
-												<td><input type="radio" name="mot_2" onClick="p52()" id="mot_2" value="5"></td>
+												<td><input type="radio" name="mot_2" id="mot_25" onClick="p52()" value="5"></td>
 
 											</tr>
 
@@ -238,15 +238,15 @@
 
 												<td colspan="6" align="left"><label for="">Para acceder a una beca económica</label></td>
 
-												<td><input type="radio" name="mot_3" onClick="p13()" id="mot_3" value="1" required></td>
+												<td><input type="radio" name="mot_3" id="mot_31" onClick="p13()" value="1" required></td>
 
-												<td><input type="radio" name="mot_3" onClick="p23()" id="mot_3" value="2"></td>
+												<td><input type="radio" name="mot_3" id="mot_32" onClick="p23()" value="2"></td>
 
-												<td><input type="radio" name="mot_3" onClick="p33()" id="mot_3" value="3"></td>
+												<td><input type="radio" name="mot_3" id="mot_33" onClick="p33()" value="3"></td>
 
-												<td><input type="radio" name="mot_3" onClick="p43()" id="mot_3" value="4"></td>
+												<td><input type="radio" name="mot_3" id="mot_34" onClick="p43()" value="4"></td>
 
-												<td><input type="radio" name="mot_3" onClick="p53()" id="mot_3" value="5"></td>
+												<td><input type="radio" name="mot_3" id="mot_35" onClick="p53()" value="5"></td>
 
 											</tr>
 
@@ -256,15 +256,15 @@
 
 												<td colspan="6" align="left"><label for="">Por status</label></td>
 
-												<td><input type="radio" name="mot_4" onClick="p14()" id="mot_4" value="1" required></td>
+												<td><input type="radio" name="mot_4" id="mot_41" onClick="p14()" value="1" required></td>
 
-												<td><input type="radio" name="mot_4" onClick="p24()" id="mot_4" value="2"></td>
+												<td><input type="radio" name="mot_4" id="mot_42" onClick="p24()" value="2"></td>
 
-												<td><input type="radio" name="mot_4" onClick="p34()" id="mot_4" value="3"></td>
+												<td><input type="radio" name="mot_4" id="mot_43" onClick="p34()" value="3"></td>
 
-												<td><input type="radio" name="mot_4" onClick="p44()" id="mot_4" value="4"></td>
+												<td><input type="radio" name="mot_4" id="mot_44" onClick="p44()" onClick="p11()" value="4"></td>
 
-												<td><input type="radio" name="mot_4" onClick="p54()" id="mot_4" value="5"></td>
+												<td><input type="radio" name="mot_4" id="mot_45" onClick="p54()" value="5"></td>
 
 											</tr>
 
@@ -274,15 +274,15 @@
 
 												<td align="left" colspan="6"><label for="">Otro, Especifique:</label></td>
 
-												<td><input type="radio" name="mot_5" onClick="p15()" id="mot_5" value="1" required></td>
+												<td><input type="radio" name="mot_5" id="mot_51" onClick="p15()" value="1" required></td>
 
-												<td><input type="radio" name="mot_5" onClick="p25()" id="mot_5" value="2"></td>
+												<td><input type="radio" name="mot_5" id="mot_52" onClick="p25()" value="2"></td>
 
-												<td><input type="radio" name="mot_5" onClick="p35()" id="mot_5" value="3"></td>
+												<td><input type="radio" name="mot_5" id="mot_53" onClick="p35()" value="3"></td>
 
-												<td><input type="radio" name="mot_5" onClick="p45()" id="mot_5" value="4"></td>
+												<td><input type="radio" name="mot_5" id="mot_54" onClick="p45()" value="4"></td>
 
-												<td><input type="radio" name="mot_5" onClick="p55()" id="mot_5" value="5"></td>
+												<td><input type="radio" name="mot_5" id="mot_55" onClick="p55()" value="5"></td>
 
 												<td><input type="text" name="mot_6" id="mot_6" placeholder="Especifique otro"></td>
 
@@ -358,7 +358,7 @@
 
 											<tr>
 
-												<td></td>
+												<td><label>Adecuadas en carga horaria</label></td>
 
 												<td style="padding-right:10px;"><label>Siempre</label></td>
 
@@ -372,7 +372,7 @@
 
 											<tr>
 
-												<td><label>Adecuadas en carga horaria</label></td>
+												<td><label>Adecuadas en la relación teoría y práctica</label></td>
 
 												<td><input type="radio" name="val_pos1" id="val_pos1" value="Siempre" required></td>
 
@@ -386,7 +386,7 @@
 
 											<tr>
 
-												<td><label>Adecuadas en la relación teoría y práctica</label></td>
+												<td><label>Congruencia entre la formación y la línea de investigación</label></td>
 
 												<td><input type="radio" name="val_pos2" id="val_pos2" value="Siempre" required></td>
 
@@ -400,7 +400,7 @@
 
 											<tr>
 
-												<td><label>Congruencia entre la formación y la línea de investigación</label></td>
+												<td><label>Contenidos actualizados</label></td>
 
 												<td><input type="radio" name="val_pos3" id="val_pos3" value="Siempre" required></td>
 
@@ -411,21 +411,7 @@
 												<td><input type="radio" name="val_pos3" id="val_pos3" value="Nunca"></td>
 
 											</tr>
-
-											<tr>
-
-												<td><label>Contenidos actualizados</label></td>
-
-												<td><input type="radio" name="val_pos4" id="val_pos4" value="Siempre" required></td>
-
-												<td><input type="radio" name="val_pos4" id="val_pos4" value="Casi siemp"></td>
-
-												<td><input type="radio" name="val_pos4" id="val_pos4" value="Casi nunca"></td>
-
-												<td><input type="radio" name="val_pos4" id="val_pos4" value="Nunca"></td>
-
-											</tr>
-
+											
 										</table>
 
 									</td>

@@ -110,7 +110,7 @@
 
 				<h2><strong>Universidad Autónoma de Baja California</strong></h2>
 
-				<h3>Facultad de Odontología</h3>
+				<h3>Facultad de Odontología Mexicali</h3>
 
 				<h3>Coordinación de Posgrado e Investigación</h3>
 
