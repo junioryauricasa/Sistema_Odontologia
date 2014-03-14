@@ -167,7 +167,7 @@
 
 							  <div class="controls">
 
-								<input type="password" class="span6 typeahead" name="pwd_orig" id="typeahead" data-provide="typeahead" data-items="4" data-source='[]'>
+								<input type="password" class="span6 typeahead" name="pwd_orig" id="typeahead" required data-provide="typeahead" data-items="4" data-source='[]'>
 
 								<input type="hidden" name="id" value="<?php echo $id; ?>">
 
@@ -181,7 +181,7 @@
 
 							  <div class="controls">
 
-								<input type="password" class="span6 typeahead" name="nvo_pwd" id="typeahead"  data-provide="typeahead" data-items="4" data-source='[]'>
+								<input type="password" class="span6 typeahead" name="nvo_pwd" id="typeahead" required   data-provide="typeahead" data-items="4" data-source='[]'>
 
 							  </div>
 
@@ -193,7 +193,7 @@
 
 							  <div class="controls">
 
-								<input type="password" class="span6 typeahead" name="confir_pwd" id="typeahead"  data-provide="typeahead" data-items="4" data-source='[]'>
+								<input type="password" class="span6 typeahead" name="confir_pwd" id="typeahead" required   data-provide="typeahead" data-items="4" data-source='[]'>
 
 							  </div>
 
