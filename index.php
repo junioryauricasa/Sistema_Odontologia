@@ -1,3 +1,13 @@
+<?php  
+	$msj = $_GET['msj'];
+
+	if ($msj == 1) {
+		$msj = "<div class='alert alert-success'>Se Envio un Correo al <b><u>".$_GET['email']."</u></b> Favor de Verificarlo..</div>";
+	}
+	if ($msj == 2) {
+		$msj = "<div class='alert alert-danger'>Error Intente mas Tarde o comuniquese con los administradores</div>";
+	}
+?>
 <!DOCTYPE html>
 
 <html>
@@ -9,8 +19,25 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<link rel="stylesheet" type="text/css" href="css/popup.css">
+		<style>
+			.alert {
+				padding: 15px;
+			  	margin-bottom: 20px;
+			  	border: 1px solid transparent;
+			  	border-radius: 4px;
+			}
+			.alert-success {
+			  	background-color: #dff0d8;
+			  	border-color: #d6e9c6;
+			  	color: #3c763d;
+			}
+			.alert-danger {
+			  	background-color: #f2dede;
+			  	border-color: #ebccd1;
+			  	color: #a94442;
+			}
+		</style>
 
-		<script type="text/javascript" src="js/script_popup.js"></script>
 
 	</head>
 
@@ -26,7 +53,7 @@
 
 				<h2><strong>Universidad Autónoma de Baja California</strong></h2>
 
-				<h3>Facultad de Odontología</h3>
+				<h3>Facultad de Odontología Mexicali</h3>
 
 				<h3>Coordinación de Posgrado e Investigación</h3>
 				<h3>Programa de seguimiento a Egresados</h3>
@@ -83,17 +110,17 @@
 
 				<a href="user/index.php"  class="btn">Login</a>
 
-				<a href="form.php" class="btn">Registrate</a>
+				<a href="form.php" class="btn">Regístrate</a>
 
 			</div>
-
+			<?php echo $msj; ?>
 		</section>
 
 		<!-- Footer -->
 
 		<footer>
 
-			<p>Universidad Autónoma de Baja California | Facultad de Odontología Campus Mexicali - Mexicali Baja California Copyright 2014 ©</p>
+			<p>Universidad Autónoma de Baja California | Facultad de Odontología Mexicali - Mexicali Baja California Copyright 2014 ©</p>
 
 		</footer>
 
