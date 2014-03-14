@@ -74,18 +74,18 @@
 							<fieldset>
 								<label for="pwd_viejo">Contraseña Original:</label>
 								<br>
-								<input type="password" name="pwd_viejo" id="pwd_viejo" placeholder="Contraseña Original">
+								<input type="password" name="pwd_viejo" id="pwd_viejo" required placeholder="Contraseña Original">
 								<input type="hidden" name="email" value="<?php echo $email; ?>">
 								<br>
 								<br>
 								<label for="pwd_new">Nueva Contraseña:</label>
 								<br>
-								<input type="password" name="pwd_new" id="pwd_new" placeholder="Nueva Contraseña">
+								<input type="password" name="pwd_new" id="pwd_new" required placeholder="Nueva Contraseña">
 								<br>
 								<br>
 								<label for="pwd_confir">Confirmar Contraseña:</label>
 								<br>
-								<input type="password" name="pwd_confir" id="pwd_confir" placeholder="Confirmar Contraseña">
+								<input type="password" name="pwd_confir" id="pwd_confir" required placeholder="Confirmar Contraseña">
 								<br>
 								<br>
 								<input type="submit" class="btn btn-primary" value="Cambiar Contraseña">

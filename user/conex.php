@@ -1,9 +1,9 @@
 <?php 
 
-	$conexion = mysql_connect("localhost","facultad","1942OMOC$'contrlescolar");
+	$conexion = mysql_connect("localhost","root","");
 
 
 
-	mysql_select_db("facultad_odontologia", $conexion);
+	mysql_select_db("odontologia", $conexion);
 
 ?>

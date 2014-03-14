@@ -1,3 +1,16 @@
+<?php  
+	$msj=$_GET['msj'];
+
+	if ($msj == 1) {
+		$msj = "<div class='alert alert-danger'>Correo NO Existe!!!!</div>";
+	}
+	if ($msj == 2) {
+		$msj = "<div class='alert alert-success'>Se Envio El Correo</div>";
+	}
+	if ($msj == 3) {
+		$msj = "<div class='alert alert-danger'>Error al intentar de enviar su correo</div>";
+	}
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,13 +18,27 @@
 		<title>Facultad de Odontologia</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="css/login.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/alertify.core.css" />
-		<link rel="stylesheet" href="css/alertify.default.css" id="toggleCSS" />
 
 		<!-- The fav icon -->
 		<link rel="shortcut icon" href="img/favicon_logo.ico">
 		
 		<style>
+			.alert {
+			  	padding: 15px;
+			  	margin-bottom: 20px;
+			  	border: 1px solid transparent;
+			  	border-radius: 4px;
+			}
+			.alert-success {
+			  	background-color: #dff0d8;
+			  	border-color: #d6e9c6;
+			  	color: #3c763d;
+			}
+			.alert-danger {
+			  	background-color: #f2dede;
+			  	border-color: #ebccd1;
+			  	color: #a94442;
+			}
 			header{
 				margin: 0 auto;
 			}
@@ -23,6 +50,9 @@
 			}
 			.sombra{
 				margin-top: -20px;
+			}
+			.label{
+				margin-top: -0px;
 			}
 		</style>
 	</head>
@@ -47,11 +77,10 @@
 				<div id="box_bg">
 					<div id="content">
 						<h1>Login</h1>
-						<form action="validarEmail.php" method="POST">
+						<form action="resetEmail.php" method="POST">
 						<!-- Login Fields -->
-						<div id="login">Para loguearse favor de poner su correo y contraseña:<br/>
-							<input type="email" name='email' placeholder="Correo" class="login user"/>
-							<input type='password' name='password' placeholder='Password' class="login password"/>
+						<div id="login">Su Correo Para Cambiar Su Contraseña:<br/>
+							<input type="email" name='email' placeholder="Su Correo Para Cambiar Password" class="login user"/>
 						</div>
 						
 						<!-- Green Button -->
@@ -61,10 +90,10 @@
 						<div class="checkbox">
 							<li>
 								<fieldset>
-									<![if !IE | (gte IE 8)]><legend id="title2" class="desc">Olvide la <a href="reset_password.php">Contraseña</a></legend><![endif]>
+									<![if !IE | (gte IE 8)]><![endif]>
 									<!--[if lt IE 8]><label id="title2" class="desc"></label><![endif]-->
-									<div>
-										
+									<div class="label">
+										<?php echo $msj; ?>
 									</div>
 								</fieldset>
 							</li>
@@ -82,66 +111,6 @@
 		</footer>
 		<!-- Script de Alertify -->
 	<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/alertify.min.js"></script>
-	<script>
-		function reset () {
-			$("#toggleCSS").attr("href", "css/alertify.default.css");
-			alertify.set({
-				labels : {
-					ok     : "OK",
-					cancel : "Cancel"
-				},
-				delay : 5000,
-				buttonReverse : false,
-				buttonFocus   : "ok"
-			});
-		}
-	</script>
-	<?php 
-		if (isset($_POST['msg_error'])) {
-			
-			switch (isset($_POST['msg_error'])) {
-				case 1 :
-				?>
-				<script type="text/javascript"> 
-		        	reset();
-					alertify.error("El usuario o password son incorrectos o Tu Cuenta esta Inactiva");
-					$("#password").focus();
-					return false;
-		      	</script>
-				<?php
-					break;
-				case 2 :
-				?>
-				<script type="text/javascript"> 
-		        	reset();
-					alertify.error("La seccion a la que intentaste entrar esta restringida.");
-					return false;
-		      	</script>
-				<?php
-					break;
-				case 3 :
-				?>
-				<script type="text/javascript"> 
-		        	reset();
-					alertify.error("Has Salido, Bye.");
-					return false;
-		      	</script>
-				<?php
-					break;
-				case 4 :
-				?>
-				<script type="text/javascript"> 
-		        	reset();
-					alertify.error("Tu Cuenta esta Inactiva.");
-					return false;
-		      	</script>
-				<?php
-					break;
-			}
-		}
-	?>
-
 	<!-- external javascript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->

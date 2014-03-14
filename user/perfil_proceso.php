@@ -3,16 +3,16 @@
 	include('conex.php');
 
 	$rol 		= $_POST['id_usuario'];
-	$nombre 	= $_POST['nombre'];
-	$paterno 	= $_POST['paterno'];
-	$materno 	= $_POST['materno'];
+	$nombre 	= strtoupper($_POST['nombre']);
+	$paterno 	= strtoupper($_POST['paterno']);
+	$materno 	= strtoupper($_POST['materno']);
 	$sexo 		= $_POST['sexo'];
 	$email 		= $_POST['email'];
 	$email_al 	= $_POST['email_alt'];
-	$dir 		= $_POST['direccion'];
-	$col 		= $_POST['colonia'];
-	$municipio 	= $_POST['municipio'];
-	$estado 	= $_POST['estado'];
+	$dir 		= strtoupper($_POST['direccion']);
+	$col 		= strtoupper($_POST['colonia']);
+	$municipio 	= strtoupper($_POST['municipio']);
+	$estado 	= strtoupper($_POST['estado']);
 	$cp 		= $_POST['cp'];
 	$tel_p 		= $_POST['tel_p'];
 	$tel_c 		= $_POST['tel_c'];
