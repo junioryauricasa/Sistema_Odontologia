@@ -23,7 +23,7 @@
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 
 		<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
-
+		<script type="text/javascript" src="js/valida.js"></script>
 		<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
 
 		<link rel="shortcut icon" href="img/favicon_logo.ico">
@@ -70,7 +70,7 @@
 
 				<h2><strong>Universidad Autónoma de Baja California</strong></h2>
 
-				<h3>Facultad de Odontología Mexicali</h3>
+				<h3>Facultad de Odontología</h3>
 
 				<h3>Coordinación de Posgrado e Investigación</h3>
 
@@ -125,87 +125,43 @@
 								<tr>
 
 									<td colspan="2">
-
 										<table>
-
 											<tr>
-
 												<td colspan="5"></td>
-
 												<td>1</td>
-
 												<td>2</td>
-
 												<td>3</td>
-
 												<td>4</td>
-
 											</tr>
-
 											<tr>
-
-												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td colspan="5" align="left"><label for="">Libros</label></td>
-
-												<td><input type="radio" name="pub_pos1" id="pub_pos1" value="1" required></td>
-
-												<td><input type="radio" name="pub_pos1" id="pub_pos1" value="2"></td>
-
-												<td><input type="radio" name="pub_pos1" id="pub_pos1" value="3"></td>
-
-												<td><input type="radio" name="pub_pos1" id="pub_pos1" value="4"></td>
-
+												<td><input type="radio" name="pub_pos1" onclick="pub11()" id="pub_pos11" value="1" required></td>
+												<td><input type="radio" name="pub_pos1" onclick="pub21()" id="pub_pos12" value="2" required></td>
+												<td><input type="radio" name="pub_pos1" onclick="pub31()" id="pub_pos13" value="3" required></td>
+												<td><input type="radio" name="pub_pos1" onclick="pub41()" id="pub_pos14" value="4" required></td>
 											</tr>
-
 											<tr>
-
-												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td colspan="5" align="left"><label for="">Artículos en revistas arbitradas</label></td>
-
-												<td><input type="radio" name="pub_pos2" id="pub_pos2" value="1" required></td>
-
-												<td><input type="radio" name="pub_pos2" id="pub_pos2" value="2"></td>
-
-												<td><input type="radio" name="pub_pos2" id="pub_pos2" value="3"></td>
-
-												<td><input type="radio" name="pub_pos2" id="pub_pos2" value="4"></td>
+												<td><input type="radio" name="pub_pos2" onclick="pub12()" id="pub_pos21" value="1" required></td>
+												<td><input type="radio" name="pub_pos2" onclick="pub22()" id="pub_pos22" value="2" required></td>
+												<td><input type="radio" name="pub_pos2" onclick="pub32()" id="pub_pos23" value="3" required></td>
+												<td><input type="radio" name="pub_pos2" onclick="pub42()" id="pub_pos24" value="4" required></td>
 
 											</tr>
-
 											<tr>
-
-												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td colspan="5" align="left"><label for="">Artículos en revistas no arbitradas</label></td>
-
-												<td><input type="radio" name="pub_pos3" id="pub_pos3" value="1" required></td>
-
-												<td><input type="radio" name="pub_pos3" id="pub_pos3" value="2"></td>
-
-												<td><input type="radio" name="pub_pos3" id="pub_pos3" value="3"></td>
-
-												<td><input type="radio" name="pub_pos3" id="pub_pos3" value="4"></td>
-
+												<td><input type="radio" name="pub_pos3" onclick="pub13()" id="pub_pos31" value="1" required></td>
+												<td><input type="radio" name="pub_pos3" onclick="pub23()" id="pub_pos32" value="2" required></td>
+												<td><input type="radio" name="pub_pos3" onclick="pub33()" id="pub_pos33" value="3" required></td>
+												<td><input type="radio" name="pub_pos3" onclick="pub43()" id="pub_pos34" value="4" required></td>
 											</tr>
-
 											<tr>
-
-												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td align="left" colspan="5"><label for="">Otro, Especifique:</label></td>
-
-												<td><input type="radio" name="pub_pos4" id="pub_pos4" value="1" required></td>
-
-												<td><input type="radio" name="pub_pos4" id="pub_pos4" value="2"></td>
-
-												<td><input type="radio" name="pub_pos4" id="pub_pos4" value="3"></td>
-
-												<td><input type="radio" name="pub_pos4" id="pub_pos4" value="4"></td>
-
+												<td><input type="radio" name="pub_pos4" onclick="pub14()" id="pub_pos41" value="1" required></td>
+												<td><input type="radio" name="pub_pos4" onclick="pub24()" id="pub_pos42" value="2" required></td>
+												<td><input type="radio" name="pub_pos4" onclick="pub34()" id="pub_pos43" value="3" required></td>
+												<td><input type="radio" name="pub_pos4" onclick="pub44()" id="pub_pos44" value="4" required></td>
 												<td><input type="text" name="pub_pos5" id="pub_pos5" placeholder="Especifique otro"></td>
-
 											</tr>
 
 										</table>
@@ -536,7 +492,7 @@
 
 		<footer>
 
-			<p>Universidad Autónoma de Baja California | Facultad de Odontología Mexicali - Mexicali Baja California Copyright 2014 ©</p>
+			<p>Universidad Autónoma de Baja California | Facultad de Odontología Campus Mexicali - Mexicali Baja California Copyright 2014 ©</p>
 
 		</footer>
 

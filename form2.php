@@ -26,6 +26,7 @@
 
 		<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
 		<script type="text/javascript" src="js/validacion.js"></script>
+		<script type="text/javascript" src="js/validar.js"></script>
 		<link rel="shortcut icon" href="img/favicon_logo.ico">
 
 		<script>
@@ -204,13 +205,13 @@
 
 												<td><input type="radio" name="mot_1" id="mot_11" onClick="p11()" value="1" required></td>
 
-												<td><input type="radio" name="mot_1" id="mot_12" onClick="p21()" value="2"></td>
+												<td><input type="radio" name="mot_1" id="mot_12" onClick="p21()" value="2" required></td>
 
-												<td><input type="radio" name="mot_1" id="mot_13" onClick="p31()" value="3"></td>
+												<td><input type="radio" name="mot_1" id="mot_13" onClick="p31()" value="3" required></td>
 
-												<td><input type="radio" name="mot_1" id="mot_14" onClick="p41()" value="4"></td>
+												<td><input type="radio" name="mot_1" id="mot_14" onClick="p41()" value="4" required></td>
 
-												<td><input type="radio" name="mot_1" id="mot_15" onClick="p51()" value="5"></td>
+												<td><input type="radio" name="mot_1" id="mot_15" onClick="p51()" value="5" required></td>
 
 											</tr>
 
@@ -222,13 +223,13 @@
 
 												<td><input type="radio" name="mot_2" id="mot_21" onClick="p12()" value="1" required></td>
 
-												<td><input type="radio" name="mot_2" id="mot_22" onClick="p22()" value="2"></td>
+												<td><input type="radio" name="mot_2" id="mot_22" onClick="p22()" value="2" required></td>
 
-												<td><input type="radio" name="mot_2" id="mot_23" onClick="p32()" value="3"></td>
+												<td><input type="radio" name="mot_2" id="mot_23" onClick="p32()" value="3" required></td>
 
-												<td><input type="radio" name="mot_2" id="mot_24" onClick="p42()" value="4"></td>
+												<td><input type="radio" name="mot_2" id="mot_24" onClick="p42()" value="4" required></td>
 
-												<td><input type="radio" name="mot_2" id="mot_25" onClick="p52()" value="5"></td>
+												<td><input type="radio" name="mot_2" id="mot_25" onClick="p52()" value="5" required></td>
 
 											</tr>
 
@@ -240,13 +241,13 @@
 
 												<td><input type="radio" name="mot_3" id="mot_31" onClick="p13()" value="1" required></td>
 
-												<td><input type="radio" name="mot_3" id="mot_32" onClick="p23()" value="2"></td>
+												<td><input type="radio" name="mot_3" id="mot_32" onClick="p23()" value="2" required></td>
 
-												<td><input type="radio" name="mot_3" id="mot_33" onClick="p33()" value="3"></td>
+												<td><input type="radio" name="mot_3" id="mot_33" onClick="p33()" value="3" required></td>
 
-												<td><input type="radio" name="mot_3" id="mot_34" onClick="p43()" value="4"></td>
+												<td><input type="radio" name="mot_3" id="mot_34" onClick="p43()" value="4" required></td>
 
-												<td><input type="radio" name="mot_3" id="mot_35" onClick="p53()" value="5"></td>
+												<td><input type="radio" name="mot_3" id="mot_35" onClick="p53()" value="5" required></td>
 
 											</tr>
 
@@ -258,13 +259,13 @@
 
 												<td><input type="radio" name="mot_4" id="mot_41" onClick="p14()" value="1" required></td>
 
-												<td><input type="radio" name="mot_4" id="mot_42" onClick="p24()" value="2"></td>
+												<td><input type="radio" name="mot_4" id="mot_42" onClick="p24()" value="2" required></td>
 
-												<td><input type="radio" name="mot_4" id="mot_43" onClick="p34()" value="3"></td>
+												<td><input type="radio" name="mot_4" id="mot_43" onClick="p34()" value="3" required></td>
 
-												<td><input type="radio" name="mot_4" id="mot_44" onClick="p44()" onClick="p11()" value="4"></td>
+												<td><input type="radio" name="mot_4" id="mot_44" onClick="p44()" value="4" required></td>
 
-												<td><input type="radio" name="mot_4" id="mot_45" onClick="p54()" value="5"></td>
+												<td><input type="radio" name="mot_4" id="mot_45" onClick="p54()" value="5" required></td>
 
 											</tr>
 
@@ -276,13 +277,13 @@
 
 												<td><input type="radio" name="mot_5" id="mot_51" onClick="p15()" value="1" required></td>
 
-												<td><input type="radio" name="mot_5" id="mot_52" onClick="p25()" value="2"></td>
+												<td><input type="radio" name="mot_5" id="mot_52" onClick="p25()" value="2" required></td>
 
-												<td><input type="radio" name="mot_5" id="mot_53" onClick="p35()" value="3"></td>
+												<td><input type="radio" name="mot_5" id="mot_53" onClick="p35()" value="3" required></td>
 
-												<td><input type="radio" name="mot_5" id="mot_54" onClick="p45()" value="4"></td>
+												<td><input type="radio" name="mot_5" id="mot_54" onClick="p45()" value="4" required></td>
 
-												<td><input type="radio" name="mot_5" id="mot_55" onClick="p55()" value="5"></td>
+												<td><input type="radio" name="mot_5" id="mot_55" onClick="p55()" value="5" required></td>
 
 												<td><input type="text" name="mot_6" id="mot_6" placeholder="Especifique otro"></td>
 
@@ -306,11 +307,11 @@
 
 								<input type="radio" name="el_posgrado" id="el_posgrado" value="Primera eleccion" required><label>Primera elección</label>
 
-								<input type="radio" name="el_posgrado" id="el_posgrado" value="Segunda eleccion"><label>Segunda elección</label>
+								<input type="radio" name="el_posgrado" id="el_posgrado" value="Segunda eleccion" required><label>Segunda elección</label>
 
-								<input type="radio" name="el_posgrado" id="el_posgrado" value="Ultima eleccion"><label>Última elección</label>
+								<input type="radio" name="el_posgrado" id="el_posgrado" value="Ultima eleccion" required><label>Última elección</label>
 
-								<input type="radio" name="el_posgrado" id="el_posgrado" value="Unica eleccion"><label>Única elección</label>
+								<input type="radio" name="el_posgrado" id="el_posgrado" value="Unica eleccion" required><label>Única elección</label>
 
 							</div>
 
@@ -324,13 +325,13 @@
 
 								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="100%" required><label>100%</label>
 
-								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="75%"><label>75%</label>
+								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="75%" required><label>75%</label>
 
-								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="50%"><label>50%</label>
+								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="50%" required><label>50%</label>
 
-								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="25%"><label>25%</label>
+								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="25%" required><label>25%</label>
 
-								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="nada"><label>Nada</label>
+								<input type="radio" name="exp_posgrado" id="exp_posgrado" value="nada" required><label>Nada</label>
 
 							</div>
 
@@ -376,11 +377,11 @@
 
 												<td><input type="radio" name="val_pos1" id="val_pos1" value="Siempre" required></td>
 
-												<td><input type="radio" name="val_pos1" id="val_pos1" value="Casi siemp"></td>
+												<td><input type="radio" name="val_pos1" id="val_pos1" value="Casi siemp" required></td>
 
-												<td><input type="radio" name="val_pos1" id="val_pos1" value="Casi nunca"></td>
+												<td><input type="radio" name="val_pos1" id="val_pos1" value="Casi nunca" required></td>
 
-												<td><input type="radio" name="val_pos1" id="val_pos1" value="Nunca"></td>
+												<td><input type="radio" name="val_pos1" id="val_pos1" value="Nunca" required></td>
 
 											</tr>
 
@@ -390,11 +391,11 @@
 
 												<td><input type="radio" name="val_pos2" id="val_pos2" value="Siempre" required></td>
 
-												<td><input type="radio" name="val_pos2" id="val_pos2" value="Casi siemp"></td>
+												<td><input type="radio" name="val_pos2" id="val_pos2" value="Casi siemp" required></td>
 
-												<td><input type="radio" name="val_pos2" id="val_pos2" value="Casi nunca"></td>
+												<td><input type="radio" name="val_pos2" id="val_pos2" value="Casi nunca" required></td>
 
-												<td><input type="radio" name="val_pos2" id="val_pos2" value="Nunca"></td>
+												<td><input type="radio" name="val_pos2" id="val_pos2" value="Nunca" required></td>
 
 											</tr>
 
@@ -404,11 +405,11 @@
 
 												<td><input type="radio" name="val_pos3" id="val_pos3" value="Siempre" required></td>
 
-												<td><input type="radio" name="val_pos3" id="val_pos3" value="Casi siemp"></td>
+												<td><input type="radio" name="val_pos3" id="val_pos3" value="Casi siemp" required></td>
 
-												<td><input type="radio" name="val_pos3" id="val_pos3" value="Casi nunca"></td>
+												<td><input type="radio" name="val_pos3" id="val_pos3" value="Casi nunca" required></td>
 
-												<td><input type="radio" name="val_pos3" id="val_pos3" value="Nunca"></td>
+												<td><input type="radio" name="val_pos3" id="val_pos3" value="Nunca" required></td>
 
 											</tr>
 											
@@ -460,9 +461,9 @@
 
 												<td><input type="radio" name="serv_1" id="serv_1" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_1" id="serv_1" value="Bueno"></td>
+												<td><input type="radio" name="serv_1" id="serv_1" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_1" id="serv_1" value="Malo"></td>
+												<td><input type="radio" name="serv_1" id="serv_1" value="Malo" required></td>
 
 											</tr>
 
@@ -472,9 +473,9 @@
 
 												<td><input type="radio" name="serv_2" id="serv_2" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_2" id="serv_2" value="Bueno"></td>
+												<td><input type="radio" name="serv_2" id="serv_2" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_2" id="serv_2" value="Malo"></td>
+												<td><input type="radio" name="serv_2" id="serv_2" value="Malo" required></td>
 
 											</tr>
 
@@ -484,9 +485,9 @@
 
 												<td><input type="radio" name="serv_3" id="serv_3" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_3" id="serv_3" value="Bueno"></td>
+												<td><input type="radio" name="serv_3" id="serv_3" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_3" id="serv_3" value="Malo"></td>
+												<td><input type="radio" name="serv_3" id="serv_3" value="Malo" required></td>
 
 											</tr>
 
@@ -496,9 +497,9 @@
 
 												<td><input type="radio" name="serv_4" id="serv_4" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_4" id="serv_4" value="Bueno"></td>
+												<td><input type="radio" name="serv_4" id="serv_4" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_4" id="serv_4" value="Malo"></td>
+												<td><input type="radio" name="serv_4" id="serv_4" value="Malo" required></td>
 
 											</tr>
 
@@ -508,9 +509,9 @@
 
 												<td><input type="radio" name="serv_5" id="serv_5" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_5" id="serv_5" value="Bueno"></td>
+												<td><input type="radio" name="serv_5" id="serv_5" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_5" id="serv_5" value="Malo"></td>
+												<td><input type="radio" name="serv_5" id="serv_5" value="Malo" required></td>
 
 											</tr>
 
@@ -520,9 +521,9 @@
 
 												<td><input type="radio" name="serv_6" id="serv_6" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_6" id="serv_6" value="Bueno"></td>
+												<td><input type="radio" name="serv_6" id="serv_6" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_6" id="serv_6" value="Malo"></td>
+												<td><input type="radio" name="serv_6" id="serv_6" value="Malo" required></td>
 
 											</tr>
 
@@ -532,9 +533,9 @@
 
 												<td><input type="radio" name="serv_7" id="serv_7" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_7" id="serv_7" value="Bueno"></td>
+												<td><input type="radio" name="serv_7" id="serv_7" value="Bueno"required></td>
 
-												<td><input type="radio" name="serv_7" id="serv_7" value="Malo"></td>
+												<td><input type="radio" name="serv_7" id="serv_7" value="Malo"required></td>
 
 											</tr>
 
@@ -544,9 +545,9 @@
 
 												<td><input type="radio" name="serv_8" id="serv_8" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_8" id="serv_8" value="Bueno"></td>
+												<td><input type="radio" name="serv_8" id="serv_8" value="Bueno"required></td>
 
-												<td><input type="radio" name="serv_8" id="serv_8" value="Malo"></td>
+												<td><input type="radio" name="serv_8" id="serv_8" value="Malo"required></td>
 
 											</tr>
 
@@ -556,9 +557,9 @@
 
 												<td><input type="radio" name="serv_9" id="serv_9" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_9" id="serv_9" value="Bueno"></td>
+												<td><input type="radio" name="serv_9" id="serv_9" value="Bueno"required></td>
 
-												<td><input type="radio" name="serv_9" id="serv_9" value="Malo"></td>
+												<td><input type="radio" name="serv_9" id="serv_9" value="Malo"required></td>
 
 											</tr>
 
@@ -568,9 +569,9 @@
 
 												<td><input type="radio" name="serv_10" id="serv_10" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_10" id="serv_10" value="Bueno"></td>
+												<td><input type="radio" name="serv_10" id="serv_10" value="Bueno"required></td>
 
-												<td><input type="radio" name="serv_10" id="serv_10" value="Malo"></td>
+												<td><input type="radio" name="serv_10" id="serv_10" value="Malo"required></td>
 
 											</tr>
 
@@ -580,9 +581,9 @@
 
 												<td><input type="radio" name="serv_11" id="serv_11" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_11" id="serv_11" value="Bueno"></td>
+												<td><input type="radio" name="serv_11" id="serv_11" value="Bueno"required></td>
 
-												<td><input type="radio" name="serv_11" id="serv_11" value="Malo"></td>
+												<td><input type="radio" name="serv_11" id="serv_11" value="Malo"required></td>
 
 											</tr>
 
@@ -592,9 +593,9 @@
 
 												<td><input type="radio" name="serv_12" id="serv_12" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_12" id="serv_12" value="Bueno"></td>
+												<td><input type="radio" name="serv_12" id="serv_12" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_12" id="serv_12" value="Malo"></td>
+												<td><input type="radio" name="serv_12" id="serv_12" value="Malo" required></td>
 
 											</tr>
 
@@ -604,9 +605,9 @@
 
 												<td><input type="radio" name="serv_13" id="serv_13" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_13" id="serv_13" value="Bueno"></td>
+												<td><input type="radio" name="serv_13" id="serv_13" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_13" id="serv_13" value="Malo"></td>
+												<td><input type="radio" name="serv_13" id="serv_13" value="Malo" required></td>
 
 											</tr>
 
@@ -616,9 +617,9 @@
 
 												<td><input type="radio" name="serv_14" id="serv_14" value="Excelente" required></td>
 
-												<td><input type="radio" name="serv_14" id="serv_14" value="Bueno"></td>
+												<td><input type="radio" name="serv_14" id="serv_14" value="Bueno" required></td>
 
-												<td><input type="radio" name="serv_14" id="serv_14" value="Malo"></td>
+												<td><input type="radio" name="serv_14" id="serv_14" value="Malo" required></td>
 
 											</tr>
 
@@ -670,9 +671,9 @@
 
 												<td><input type="radio" name="infr_1" id="infr_1" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_1" id="infr_1" value="Bueno"></td>
+												<td><input type="radio" name="infr_1" id="infr_1" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_1" id="infr_1" value="Malo"></td>
+												<td><input type="radio" name="infr_1" id="infr_1" value="Malo" required></td>
 
 											</tr>
 
@@ -682,9 +683,9 @@
 
 												<td><input type="radio" name="infr_2" id="infr_2" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_2" id="infr_2" value="Bueno"></td>
+												<td><input type="radio" name="infr_2" id="infr_2" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_2" id="infr_2" value="Malo"></td>
+												<td><input type="radio" name="infr_2" id="infr_2" value="Malo" required></td>
 
 											</tr>
 
@@ -694,9 +695,9 @@
 
 												<td><input type="radio" name="infr_3" id="infr_3" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_3" id="infr_3" value="Bueno"></td>
+												<td><input type="radio" name="infr_3" id="infr_3" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_3" id="infr_3" value="Malo"></td>
+												<td><input type="radio" name="infr_3" id="infr_3" value="Malo" required></td>
 
 											</tr>
 
@@ -706,9 +707,9 @@
 
 												<td><input type="radio" name="infr_4" id="infr_4" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_4" id="infr_4" value="Bueno"></td>
+												<td><input type="radio" name="infr_4" id="infr_4" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_4" id="infr_4" value="Malo"></td>
+												<td><input type="radio" name="infr_4" id="infr_4" value="Malo" required></td>
 
 											</tr>
 
@@ -718,9 +719,9 @@
 
 												<td><input type="radio" name="infr_5" id="infr_5" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_5" id="infr_5" value="Bueno"></td>
+												<td><input type="radio" name="infr_5" id="infr_5" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_5" id="infr_5" value="Malo"></td>
+												<td><input type="radio" name="infr_5" id="infr_5" value="Malo" required></td>
 
 											</tr>
 
@@ -730,9 +731,9 @@
 
 												<td><input type="radio" name="infr_6" id="infr_6" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_6" id="infr_6" value="Bueno"></td>
+												<td><input type="radio" name="infr_6" id="infr_6" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_6" id="infr_6" value="Malo"></td>
+												<td><input type="radio" name="infr_6" id="infr_6" value="Malo" required></td>
 
 											</tr>
 
@@ -742,9 +743,9 @@
 
 												<td><input type="radio" name="infr_7" id="infr_7" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_7" id="infr_7" value="Bueno"></td>
+												<td><input type="radio" name="infr_7" id="infr_7" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_7" id="infr_7" value="Malo"></td>
+												<td><input type="radio" name="infr_7" id="infr_7" value="Malo" required></td>
 
 											</tr>
 
@@ -754,9 +755,9 @@
 
 												<td><input type="radio" name="infr_8" id="infr_8" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_8" id="infr_8" value="Bueno"></td>
+												<td><input type="radio" name="infr_8" id="infr_8" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_8" id="infr_8" value="Malo"></td>
+												<td><input type="radio" name="infr_8" id="infr_8" value="Malo" required></td>
 
 											</tr>
 
@@ -766,9 +767,9 @@
 
 												<td><input type="radio" name="infr_9" id="infr_9" value="Excelente" required></td>
 
-												<td><input type="radio" name="infr_9" id="infr_9" value="Bueno"></td>
+												<td><input type="radio" name="infr_9" id="infr_9" value="Bueno" required></td>
 
-												<td><input type="radio" name="infr_9" id="infr_9" value="Malo"></td>
+												<td><input type="radio" name="infr_9" id="infr_9" value="Malo" required></td>
 
 											</tr>
 
@@ -805,141 +806,74 @@
 										<table>
 
 											<tr>
-
 												<td colspan="6"></td>
-
 												<td>1</td>
-
 												<td>2</td>
-
 												<td>3</td>
-
 												<td>4</td>
-
 												<td>5</td>
-
 												<td>6</td>
-
 											</tr>
-
 											<tr>
-
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td colspan="6" align="left"><label for="">Enfatizar los aspectos prácticos en la mayoría de las materias</label></td>
-
-												<td><input type="radio" name="mod_1" id="mod_1" value="1" required></td>
-
-												<td><input type="radio" name="mod_1" id="mod_1" value="2"></td>
-
-												<td><input type="radio" name="mod_1" id="mod_1" value="3"></td>
-
-												<td><input type="radio" name="mod_1" id="mod_1" value="4"></td>
-
-												<td><input type="radio" name="mod_1" id="mod_1" value="5"></td>
-
-												<td><input type="radio" name="mod_1" id="mod_1" value="6"></td>
-
+												<td><input type="radio" name="mod_1" onClick="m11()" id="mod_11" value="1" required></td>
+												<td><input type="radio" name="mod_1" onClick="m21()" id="mod_12" value="2" required></td>
+												<td><input type="radio" name="mod_1" onClick="m31()" id="mod_13" value="3" required></td>
+												<td><input type="radio" name="mod_1" onClick="m41()" id="mod_14" value="4" required></td>
+												<td><input type="radio" name="mod_1" onClick="m51()" id="mod_15" value="5" required></td>
+												<td><input type="radio" name="mod_1" onClick="m61()" id="mod_16" value="6" required></td>
 											</tr>
-
 											<tr>
-
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td colspan="6" align="left"><label for="">Actualización de los contenidos</label></td>
-
-												<td><input type="radio" name="mod_2" id="mod_2" value="1" required></td>
-
-												<td><input type="radio" name="mod_2" id="mod_2" value="2"></td>
-
-												<td><input type="radio" name="mod_2" id="mod_2" value="3"></td>
-
-												<td><input type="radio" name="mod_2" id="mod_2" value="4"></td>
-
-												<td><input type="radio" name="mod_2" id="mod_2" value="5"></td>
-
-												<td><input type="radio" name="mod_2" id="mod_2" value="6"></td>
-
+												<td><input type="radio" name="mod_2" onClick="m12()" id="mod_21" value="1" required></td>
+												<td><input type="radio" name="mod_2" onClick="m22()" id="mod_22" value="2" required></td>
+												<td><input type="radio" name="mod_2" onClick="m32()" id="mod_23" value="3" required></td>
+												<td><input type="radio" name="mod_2" onClick="m42()" id="mod_24" value="4" required></td>
+												<td><input type="radio" name="mod_2" onClick="m52()" id="mod_25" value="5" required></td>
+												<td><input type="radio" name="mod_2" onClick="m62()" id="mod_26" value="6" required></td>
 											</tr>
-
 											<tr>
-
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
-												<td colspan="6" align="left"><label for="">Dar mayor peso a la investigación</label></td>
-
-												<td><input type="radio" name="mod_3" id="mod_3" value="1" required></td>
-
-												<td><input type="radio" name="mod_3" id="mod_3" value="2"></td>
-
-												<td><input type="radio" name="mod_3" id="mod_3" value="3"></td>
-
-												<td><input type="radio" name="mod_3" id="mod_3" value="4"></td>
-
-												<td><input type="radio" name="mod_3" id="mod_3" value="5"></td>
-
-												<td><input type="radio" name="mod_3" id="mod_3" value="6"></td>
-
+												<td colspan="6" align="left"><label for="">Dar ma()yor peso a la investigación</label></td>
+												<td><input type="radio" name="mod_3" onClick="m13()" id="mod_31" value="1" required></td>
+												<td><input type="radio" name="mod_3" onClick="m23()" id="mod_32" value="2" required></td>
+												<td><input type="radio" name="mod_3" onClick="m33()" id="mod_33" value="3" required></td>
+												<td><input type="radio" name="mod_3" onClick="m43()" id="mod_34" value="4" required></td>
+												<td><input type="radio" name="mod_3" onClick="m53()" id="mod_35" value="5" required></td>
+												<td><input type="radio" name="mod_3" onClick="m63()" id="mod_36" value="6" required></td>
 											</tr>
-
 											<tr>
-
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td colspan="6" align="left"><label for="">Complementar y enriquecer los contenidos con cursos y conferencias</label></td>
-
-												<td><input type="radio" name="mod_4" id="mod_4" value="1" required></td>
-
-												<td><input type="radio" name="mod_4" id="mod_4" value="2"></td>
-
-												<td><input type="radio" name="mod_4" id="mod_4" value="3"></td>
-
-												<td><input type="radio" name="mod_4" id="mod_4" value="4"></td>
-
-												<td><input type="radio" name="mod_4" id="mod_4" value="5"></td>
-
-												<td><input type="radio" name="mod_4" id="mod_4" value="6"></td>
-
+												<td><input type="radio" name="mod_4" onClick="m14()" id="mod_41" value="1" required></td>
+												<td><input type="radio" name="mod_4" onClick="m24()" id="mod_42" value="2" required></td>
+												<td><input type="radio" name="mod_4" onClick="m34()" id="mod_43" value="3" required></td>
+												<td><input type="radio" name="mod_4" onClick="m44()" id="mod_44" value="4" required></td>
+												<td><input type="radio" name="mod_4" onClick="m54()" id="mod_45" value="5" required></td>
+												<td><input type="radio" name="mod_4" onClick="m64()" id="mod_46" value="6" required></td>
 											</tr>
-
 											<tr>
-
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td colspan="6" align="left"><label for="">Reducir las materias teóricas</label></td>
-
-												<td><input type="radio" name="mod_5" id="mod_5" value="1" required></td>
-
-												<td><input type="radio" name="mod_5" id="mod_5" value="2"></td>
-
-												<td><input type="radio" name="mod_5" id="mod_5" value="3"></td>
-
-												<td><input type="radio" name="mod_5" id="mod_5" value="4"></td>
-
-												<td><input type="radio" name="mod_5" id="mod_5" value="5"></td>
-
-												<td><input type="radio" name="mod_5" id="mod_5" value="6"></td>
-
+												<td><input type="radio" name="mod_5" onClick="m15()" id="mod_51" value="1" required></td>
+												<td><input type="radio" name="mod_5" onClick="m25()" id="mod_52" value="2" required></td>
+												<td><input type="radio" name="mod_5" onClick="m35()" id="mod_53" value="3" required></td>
+												<td><input type="radio" name="mod_5" onClick="m45()" id="mod_54" value="4" required></td>
+												<td><input type="radio" name="mod_5" onClick="m55()" id="mod_55" value="5" required></td>
+												<td><input type="radio" name="mod_5" onClick="m65()" id="mod_56" value="6" required></td>
 											</tr>
 
 											<tr>
-
 												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
-
 												<td align="left" colspan="6"><label for="">Otro, Especifique:</label></td>
-
-												<td><input type="radio" name="mod_6" id="mod_6" value="1" required></td>
-
-												<td><input type="radio" name="mod_6" id="mod_6" value="2"></td>
-
-												<td><input type="radio" name="mod_6" id="mod_6" value="3"></td>
-
-												<td><input type="radio" name="mod_6" id="mod_6" value="4"></td>
-
-												<td><input type="radio" name="mod_6" id="mod_6" value="5"></td>
-
-												<td><input type="radio" name="mod_6" id="mod_6" value="6"></td>
-
+												<td><input type="radio" name="mod_6" onClick="m16()" id="mod_61" value="1" required></td>
+												<td><input type="radio" name="mod_6" onClick="m26()" id="mod_62" value="2" required></td>
+												<td><input type="radio" name="mod_6" onClick="m36()" id="mod_63" value="3" required></td>
+												<td><input type="radio" name="mod_6" onClick="m46()" id="mod_64" value="4" required></td>
+												<td><input type="radio" name="mod_6" onClick="m56()" id="mod_65" value="5" required></td>
+												<td><input type="radio" name="mod_6" onClick="m66()" id="mod_66" value="6" required></td>
 												<td><input type="text" name="mod_7" id="mod_7" placeholder="Especifique otro"></td>
 
 											</tr>
